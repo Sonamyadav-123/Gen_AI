@@ -1,7 +1,7 @@
-import streamlit as st
 from google import genai
+import streamlit as st
 from dotenv import load_dotenv
-
+import os
 load_dotenv()
 
 client = genai.Client(api_key = "AIzaSyBMuyM144kGFP4yJ9flotNtfEZYWN7NhAg")
